@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quadratic Equation Graph</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="Images/graph.jpg">
+          <img
+            src="Images/graph.jpg"
+            alt="Graphify-Logo"
+            width="200px"
+            height="70"
+          />
+        </a>
+      </div>
+    </nav>
+    <h1>Quadratic Equation Graph</h1>
+    <form>
+      <label for="a">a:</label>
+      <input type="number" id="a" name="a" required /><br /><br />
+      <label for="b">b:</label>
+      <input type="number" id="b" name="b" required /><br /><br />
+      <label for="c">c:</label>
+      <input type="number" id="c" name="c" required /><br /><br />
+      <input type="submit" value="Generate Graph" />
+    </form>
+
+    <div id="plot-div"></div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.3.1.min.js"></script>
+  </body>
+</html>
